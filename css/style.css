@@ -12,7 +12,7 @@
 .slide{
     height: 500px;
     width: 100%;
-    background: url('wuri.jpg');
+    background: url('../image/wuri.jpg');
     background-size: 100% 115%;
     border-bottom-left-radius: 25px ;
     border-bottom-right-radius: 25px;
