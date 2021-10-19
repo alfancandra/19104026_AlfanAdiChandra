@@ -1,3 +1,2 @@
-# 19104016-VincentNathaniel-WEB
-##
-#Repository for Web Development 
+# 19104026_AlfanAdiChandra
+Praktikum Desain &amp; Pemrograman Web
