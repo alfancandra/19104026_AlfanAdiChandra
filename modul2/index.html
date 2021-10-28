@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body style="background: black">
+	<div class="container">
+		<div class="top-border">
+			<div class="camera">
+				
+			</div>
+			<div class="min-camera">
+					
+			</div>
+		</div>
+		<div class="top-bar">
+			<div class="jam">
+				<span id="span">00:00</span>
+			</div>
+			<div class="batre">
+				<img src="img/batre.png" width="40">
+			</div>
+			<div class="wifi">
+				<img src="img/wifi.png" width="40">
+			</div>
+		</div>
+		<h1 align="center" style="padding-top: 20px">Data Diri</h1>
+		<div class="row">
+			<div class="column">
+				<img src="img/foto.jpeg" class="foto" width="150">
+				<table class="data-diri" cellpadding="4">
+					<tr>
+						<td>Alfan Adi Chandra</td>
+					</tr>
+					<tr>
+						<td>S1 Software Engineering</td>
+					</tr>
+					<tr>
+						<td>alfancandra@gmail.com</td>
+					</tr>
+					<tr>
+						<td>Brebes, Jawa Tengah</td>
+					</tr>
+				</table>
+			</div>
+			<div class="column">
+				<table class="" cellpadding="4" style="margin-left: 80px;">
+					<tr>
+						<td>SDN Kalierang 4,Bumiayu</td>
+					</tr>
+					<tr>
+						<td>SMP Negeri 1 Bumiayu</td>
+					</tr>
+					<tr>
+						<td>SMK Muhammadiyah 1 Paguyangan</td>
+					</tr>
+					<tr>
+						<td>Institut Teknologi Telkom Purwokerto</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="portofolio">
+			<h1 align="center" class="white" style="padding-top: 15px;"><u>Portofolio</u></h1>
+			<div class="image">
+				<img src="img/1.png" class="img" width="600" align="center">
+				<h1 align="center" class="white">Website Absensi</h1>
+			</div>
+			<div class="image">
+				<img src="img/2.png" class="img" width="600" align="center">
+				<h1 align="center" class="white">Website Penjualan Voucher Game</h1>
+			</div>
+			<div class="image">
+				<img src="img/3.png" class="img" width="600" align="center">
+				<h1 align="center" class="white">Website Shortener Link <a href="https://linknya.id" class="link">https://linknya.id</a></h1>
+			</div>
+			<div class="image">
+				<img src="img/4.png" class="img" width="600" align="center">
+				<h1 align="center" class="white">Website Pameran Arsitektur</h1>
+			</div>
+			<div class="image">
+				<br><br>
+			</div>
+		</div>
+		<div class="bottom-button">
+			
+		</div>
+	</div>
+	<div style="margin-top: 130px;">
+		
+	</div>
+
+<script type="text/javascript">
+	var span = document.getElementById('span');
+
+	function time() {
+	  var d = new Date();
+	  var s = d.getSeconds();
+	  var m = d.getMinutes();
+	  var h = d.getHours();
+	  span.textContent = 
+	    ("0" + h).substr(-2) + ":" + ("0" + m).substr(-2);
+	}
+
+	setInterval(time, 1000);
+</script>
+</body>
+</html>
