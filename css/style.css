@@ -6,3 +6,19 @@
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
+.nav-link{
+    color: white !important;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+.nav-link:hover{
+    background-color: #A61C21;
+    border-radius: 50px;
+}
+
+.search{
+    float:right;
+    width: 250px;
+    margin-left: 200px;
+}
