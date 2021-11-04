@@ -1,5 +1,5 @@
 .container-md {
-    border:1px solid red
+    min-height: 900px;
 }
 .bg-custom{
     background: #DB292F;
@@ -10,9 +10,12 @@
     color: white !important;
     border-radius: 50px;
     margin-left: 15px;
+    border: 1px solid transparent;
+    transition: 0.4s;
 }
 
 .nav-link:hover{
+    border: 1px solid white;
     background-color: #A61C21;
     border-radius: 50px;
 }
@@ -21,4 +24,9 @@
     float:right;
     width: 250px;
     margin-left: 200px;
+}
+
+.carousel,.carousel-inner{
+    border-bottom-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
 }
