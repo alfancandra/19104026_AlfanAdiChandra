@@ -1,5 +1,5 @@
 .container-md {
-    min-height: 900px;
+    min-height: 1200px;
 }
 .bg-custom{
     background: #DB292F;
@@ -29,4 +29,22 @@
 .carousel,.carousel-inner{
     border-bottom-left-radius: 25px !important;
     border-bottom-right-radius: 25px !important;
+}
+
+.card{
+    border-radius:25px;
+}
+
+.card-prestasi{
+    transition: 0.4s;
+    border-radius: 25px;
+    
+}
+
+.card-prestasi:hover{
+    margin-top: -15px;
+    padding: 20px;
+    background: #C02127;
+    color:#fff;
+    border-radius: 25px;
 }
